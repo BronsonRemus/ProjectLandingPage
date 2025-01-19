@@ -121,13 +121,82 @@ html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 40vh;
 }
 
 .Section2Quote{
-    font-size: 18px;
-    font-weight: 100;
+    font-size: 35px;
+    font-weight: 350;
+    font-style: italic;
+    width: 45%;
+}
+
+.Section2Sign{
+    margin-left: 30%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Section3{
+    background-color: white;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.CalltoAction{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6;
+    color: white;
     width: 75%;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.CalltoActionCopy{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.CalltoActionCopy p{
+    font-weight: 200;
+    font-size: 22px;
+}
+
+
+.CalltoActionButton{
+    padding-left: 200px;
+}
+
+.CalltoActionButton button{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    background-color: #3882F6;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+Footer{
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    height: 100px;
 }
 
 
